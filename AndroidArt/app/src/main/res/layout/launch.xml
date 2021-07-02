@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<auroraaa.yr.library.widgets.SrcScrollFrame
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:maskLayerColor="#80000000"
+    app:scrollOrientation="toTop"
+    app:src="@drawable/scroll_background">
+
+    <TextView
+        android:id="@+id/launch_slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="@string/slogan"
+        android:textAlignment="center"
+        android:textColor="#E9EAEC"
+        android:textSize="30sp"
+        android:layout_gravity="center_vertical"/>
+
+</auroraaa.yr.library.widgets.SrcScrollFrame>

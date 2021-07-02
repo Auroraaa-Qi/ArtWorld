@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/home_item_shape">
+
+    <!-- dashboard页面参照小红书主页布局 -->
+
+    <!-- 图像 -->
+    <ImageView
+        android:id="@+id/dashboard_item_img"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--标题-->
+        <TextView
+            android:id="@+id/dashboard_item_title"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:maxLines="2" />
+
+        <!--点亮收藏的星星icon-->
+
+        <ImageView
+            android:id="@+id/dashboard_item_star"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+
+
+
+    <!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+<!--        &lt;!&ndash; 发布用户头像 &ndash;&gt;-->
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:src="@drawable/avatar"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:layout_gravity="center"/>-->
+<!--        &lt;!&ndash; 发布用户昵称 &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/home_item_username"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:text="Au肉肉的睿睿"-->
+<!--            android:textSize="12sp"/>-->
+<!--        &lt;!&ndash; 收藏 &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/home_item_collect"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_gravity="top"-->
+<!--            android:gravity="right"/>-->
+<!--            <ImageView-->
+<!--                android:layout_width="25dp"-->
+<!--                android:layout_height="25dp"-->
+<!--                android:src="@drawable/ic_star_outline_24dp"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="25dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="left"-->
+<!--                android:text="1234"-->
+<!--                android:textSize="10dp"-->
+<!--                android:textColor="#DDDDDD"/>-->
+<!--    </LinearLayout>-->
+</LinearLayout>
